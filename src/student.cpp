@@ -101,7 +101,7 @@ bool dequeue(Queue& q, int& nomor) {
     q.depan = q.depan->next;
 
     if (q.depan == nullptr) {
-        q.belakang == nullptr;
+        q.belakang = nullptr;
     }
     
     delete hapus;
